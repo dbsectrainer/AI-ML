@@ -76,7 +76,7 @@ services:
       - LOG_LEVEL=INFO
     
   monitoring:
-    image: prom/prometheus
+    image: prom/prometheus:latest
     ports:
       - "9090:9090"
     volumes:
